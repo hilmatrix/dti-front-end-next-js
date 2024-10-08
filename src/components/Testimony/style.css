@@ -1,0 +1,36 @@
+.testimony {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.testimony .testimony-up {
+    flex: 0 65%;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.testimony .testimony-down {
+    flex: 0 35%;
+    font-size: medium;
+
+    display: flex;
+    width: 60%;
+}
+
+.testimony .testimony-image {
+    margin-right: 20px;
+}
+
+.testimony .testimony-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimony .testimony-name {
+    flex: 0 50%;
+}
+
+.testimony .testimony-title {
+    flex: 0 50%;
+}

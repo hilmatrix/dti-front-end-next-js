@@ -1,0 +1,30 @@
+.about {
+    padding:40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.about .about-left {
+    flex-basis: 30%;
+
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #0B0C0E;
+}
+
+.about .about-right {
+    flex-basis: 70%;
+
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 140%;
+
+    color: #3C3D3E;
+}

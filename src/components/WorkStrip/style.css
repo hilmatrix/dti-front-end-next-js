@@ -1,0 +1,12 @@
+.work-strip {
+    overflow: scroll;
+    white-space: nowrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display : flex;
+}
+
+.work-strip img {
+    margin-left: 50px;
+    margin-right: 50px;
+}

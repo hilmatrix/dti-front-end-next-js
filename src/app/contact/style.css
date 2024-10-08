@@ -1,0 +1,14 @@
+.contact {
+    height: 800px;
+    display: flex;
+}
+
+.contact .contact-left {
+    margin-top: 100px;
+    flex-basis: 50%;
+}
+
+.contact .contact-right {
+    margin-top: 100px;
+    flex-basis: 50%;
+}

@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    position: absolute;
+    width: 90%;
+    height: 20px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 1;
+}
+
+
+header .name {
+    flex-basis: 70%;
+
+    display: flex;
+    justify-content: left;
+    align-self: center;
+
+    
+}
+
+header nav {
+    flex-basis: 30%;
+
+    display: flex;
+    justify-content: left;
+    align-self: center;
+}
+
+header nav ul {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+.contact-info {
+    margin-left: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info-image {
+    flex : 0 30%;
+    width: 100%;
+}
+
+.contact-info-details {
+    width: 100%;
+
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex : 0 20%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-info-details span {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-info-social .title, .contact-info-details .title {
+    color: #3C3D3E;
+}
+
+
+.contact-info-social {
+    width: 100%;
+    flex : 0 40%;
+}
+
+
+.contact-info-social nav {
+    margin-top: 10px;
+}
+
+.contact-info-social nav ul{
+    padding: 0;
+    margin: 0;
+ }
+
+.contact-info-social nav ul li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.contact-info-social a {
+    text-decoration: none;
+}
+
+.contact-info-social a:hover {
+    font-weight: bold;
+}

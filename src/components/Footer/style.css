@@ -1,0 +1,42 @@
+footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+}
+
+.footer-left {
+    flex-basis: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-right {
+    flex-basis: 50%;
+    height: 100%;
+}
+
+
+.footer-right nav {
+    height: 50%;
+}
+
+.footer-right nav ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-right a:hover {
+    font-weight: bold;
+}

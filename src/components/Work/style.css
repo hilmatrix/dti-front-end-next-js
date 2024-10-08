@@ -1,0 +1,31 @@
+.work {
+    width: 100%;
+    display: flex;
+}
+
+.work .work-left {
+    flex-basis: 90%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.work .work-up {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+
+    flex-basis: 50%;
+    color: #0B0C0E;
+}
+
+.work .work-down {
+    flex-basis: 50%;
+}
+
+.work-right img {
+    transition: 0.3s ease; 
+}
+
