@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 import ContactInfo from '../../components/ContactInfo/index';
 import Footer from '../../components/Footer/index';
